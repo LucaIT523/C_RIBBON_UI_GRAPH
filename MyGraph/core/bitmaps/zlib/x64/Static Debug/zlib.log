@@ -1,0 +1,29 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzio.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(131,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(181,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(226,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(267,30): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(303,15): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(439,40): warning C4267: '-=': conversion from 'size_t' to 'uInt', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(451,34): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(623,11): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(987,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(988,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\gzio.c(989,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  infback.c
+  inffast.c
+  inflate.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\inflate.c(1266,58): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  inftrees.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\zlib\inftrees.c(257,31): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1573,5): warning MSB8012: TargetPath(D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\x64\Static Debug\zlib.lib) does not match the Library's OutputFile property value (D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\output\zlib_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1575,5): warning MSB8012: TargetName(zlib) does not match the Library's OutputFile property value (zlib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  zlib.vcxproj -> D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\x64\Static Debug\zlib.lib

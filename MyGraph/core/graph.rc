@@ -1,0 +1,934 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource_graph.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_GRAPHFRAME          ICON                    ".\\res\\graph_frame.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource_graph.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_GRAPHFRAME MENU 
+BEGIN
+    POPUP "&Graph"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN_DATA
+        MENUITEM "&Save",                       ID_SAVE_DATA
+        MENUITEM SEPARATOR
+        POPUP "Pr&esets"
+        BEGIN
+            MENUITEM "&Load",                       ID_OPEN_PRESET
+            MENUITEM "&Save",                       ID_SAVE_PRESET
+            MENUITEM SEPARATOR
+            MENUITEM "&Reset",                      ID_PRESETS_RESET
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Export"
+        BEGIN
+            MENUITEM "To &File",                    ID_EXPORT_TOFILE
+            MENUITEM "To &Clipboard",               ID_EXPORT_TOCLIPBOARD
+            POPUP "To Text File"
+            BEGIN
+                MENUITEM "CSV",                         50006
+                MENUITEM "XML",                         50007
+            END
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Page Set&up...",              ID_GRAPH_PAGESETUP
+        MENUITEM "Print Pre&view",              ID_GRAPH_PRINTPREVIEW
+        MENUITEM "&Print...",                   ID_GRAPH_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperties...",              ID_GRAPH_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_GRAPH_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Bars"
+        BEGIN
+            MENUITEM "&Toolbar",                    ID_BARS_TOOLBAR
+            MENUITEM "&Status Bar",                 ID_BARS_STATUSBAR
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Graph Components"
+        BEGIN
+            MENUITEM "&Title",                      ID_GRAPHCOMPONENTS_TITLE
+            MENUITEM "&Sub Title",                  ID_GRAPHCOMPONENTS_SUBTITLE
+
+            MENUITEM "&Legend",                     ID_GRAPHCOMPONENTS_LEGEND
+
+            MENUITEM SEPARATOR
+            MENUITEM "&X Label",                    ID_GRAPHCOMPONENTS_XLABEL
+
+            MENUITEM "&Y Label",                    ID_GRAPHCOMPONENTS_YLABEL
+
+            MENUITEM SEPARATOR
+            MENUITEM "X &Data Labels",              ID_GRAPHCOMPONENTS_XDATALABELS
+
+            MENUITEM "Y D&ata Labels",              ID_GRAPHCOMPONENTS_YDATALABELS
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Grid",                       ID_GRAPHCOMPONENTS_GRIDS
+            MENUITEM "S&ub Grid",                   ID_GRAPHCOMPONENTS_SUBGRIDS
+
+            MENUITEM "T&icks",                      ID_GRAPHCOMPONENTS_TICKS
+            MENUITEM "Su&b Ticks",                  ID_GRAPHCOMPONENTS_SUBTICKS
+
+        END
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Selection Tool",              ID_TOOLS_SELECTIONTOOL
+        MENUITEM "&Pan Tool",                   ID_TOOLS_PANTOOL
+        MENUITEM "&Crosshair Tool",             ID_TOOLS_CROSSTOOL
+        MENUITEM SEPARATOR
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "&Zoom",                       ID_ZOOM_ZOOM
+            MENUITEM "&Unzoom",                     ID_ZOOM_UNZOOM
+            MENUITEM "Zoom &100%",                  ID_ZOOM_ZOOM100
+        END
+    END
+END
+
+IDR_CONTEXTMENU MENU 
+BEGIN
+    POPUP "BackGround"
+    BEGIN
+        MENUITEM "Graph",                       ID_BACKGROUND_GRAPH
+        MENUITEM SEPARATOR
+        MENUITEM "&Open",                       ID_OPEN_DATA
+        MENUITEM "&Save",                       ID_SAVE_DATA
+        MENUITEM SEPARATOR
+        POPUP "Pr&esets"
+        BEGIN
+            MENUITEM "&Load",                       ID_OPEN_PRESET
+            MENUITEM "&Save",                       ID_SAVE_PRESET
+            MENUITEM SEPARATOR
+            MENUITEM "&Reset",                      ID_PRESETS_RESET
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Export"
+        BEGIN
+            MENUITEM "To &File",                    ID_EXPORT_TOFILE
+            MENUITEM "To &Clipboard",               ID_EXPORT_TOCLIPBOARD
+            POPUP "To Text File"
+            BEGIN
+                MENUITEM "CSV",                         ID_EXPORT_TO_CSV
+                MENUITEM "XML",                         ID_EXPORT_TO_XML
+            END
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Graph Components"
+        BEGIN
+            MENUITEM "&Title",                      ID_GRAPHCOMPONENTS_TITLE
+            MENUITEM "&Sub Title",                  ID_GRAPHCOMPONENTS_SUBTITLE
+
+            MENUITEM "&Legend",                     ID_GRAPHCOMPONENTS_LEGEND
+
+            MENUITEM SEPARATOR
+            MENUITEM "&X Label",                    ID_GRAPHCOMPONENTS_XLABEL
+
+            MENUITEM "&Y Label",                    ID_GRAPHCOMPONENTS_YLABEL
+
+            MENUITEM SEPARATOR
+            MENUITEM "X &Data Labels",              ID_GRAPHCOMPONENTS_XDATALABELS
+
+            MENUITEM "Y D&ata Labels",              ID_GRAPHCOMPONENTS_YDATALABELS
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Grid",                       ID_GRAPHCOMPONENTS_GRIDS
+            MENUITEM "S&ub Grid",                   ID_GRAPHCOMPONENTS_SUBGRIDS
+
+            MENUITEM "T&icks",                      ID_GRAPHCOMPONENTS_TICKS
+            MENUITEM "Su&b Ticks",                  ID_GRAPHCOMPONENTS_SUBTICKS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Page Set&up...",              ID_GRAPH_PAGESETUP
+        MENUITEM "Print Pre&view",              ID_GRAPH_PRINTPREVIEW
+        MENUITEM "&Print...",                   ID_GRAPH_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperties...",              ID_GRAPH_PROPERTIES
+    END
+    POPUP "Legend"
+    BEGIN
+        MENUITEM "Legend",                      ID_LEGEND_LEGEND
+        MENUITEM SEPARATOR
+        MENUITEM "&Move && Size",               ID_LEGEND_MOVESIZE
+        MENUITEM "&Hide",                       ID_LEGEND_HIDE
+        MENUITEM SEPARATOR
+        POPUP "&Graph Components"
+        BEGIN
+            MENUITEM "&Title",                      ID_GRAPHCOMPONENTS_TITLE
+            MENUITEM "&Sub Title",                  ID_GRAPHCOMPONENTS_SUBTITLE
+
+            MENUITEM "&Legend",                     ID_GRAPHCOMPONENTS_LEGEND
+
+            MENUITEM SEPARATOR
+            MENUITEM "&X Label",                    ID_GRAPHCOMPONENTS_XLABEL
+
+            MENUITEM "&Y Label",                    ID_GRAPHCOMPONENTS_YLABEL
+
+            MENUITEM SEPARATOR
+            MENUITEM "X &Data Labels",              ID_GRAPHCOMPONENTS_XDATALABELS
+
+            MENUITEM "Y D&ata Labels",              ID_GRAPHCOMPONENTS_YDATALABELS
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Grid",                       ID_GRAPHCOMPONENTS_GRIDS
+            MENUITEM "S&ub Grid",                   ID_GRAPHCOMPONENTS_SUBGRIDS
+
+            MENUITEM "T&icks",                      ID_GRAPHCOMPONENTS_TICKS
+            MENUITEM "Su&b Ticks",                  ID_GRAPHCOMPONENTS_SUBTICKS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_LEGEND_PROPERTIES
+    END
+    POPUP "Data"
+    BEGIN
+        MENUITEM "Plot Field",                  ID_DATA_PLOTFIELD
+        MENUITEM SEPARATOR
+        POPUP "&Tools"
+        BEGIN
+            MENUITEM "Selection Tool",              ID_TOOLS_SELECTIONTOOL
+            MENUITEM "&Pan Tool",                   ID_TOOLS_PANTOOL
+            MENUITEM "&Crosshair Tool",             ID_TOOLS_CROSSTOOL
+        END
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "&Zoom",                       ID_ZOOM_ZOOM
+            MENUITEM "&Unzoom",                     ID_ZOOM_UNZOOM
+            MENUITEM "Zoom &100%",                  ID_DATA_100
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Graph Components"
+        BEGIN
+            MENUITEM "&Title",                      ID_GRAPHCOMPONENTS_TITLE
+            MENUITEM "&Sub Title",                  ID_GRAPHCOMPONENTS_SUBTITLE
+
+            MENUITEM "&Legend",                     ID_GRAPHCOMPONENTS_LEGEND
+
+            MENUITEM SEPARATOR
+            MENUITEM "&X Label",                    ID_GRAPHCOMPONENTS_XLABEL
+
+            MENUITEM "&Y Label",                    ID_GRAPHCOMPONENTS_YLABEL
+
+            MENUITEM SEPARATOR
+            MENUITEM "X &Data Labels",              ID_GRAPHCOMPONENTS_XDATALABELS
+
+            MENUITEM "Y D&ata Labels",              ID_GRAPHCOMPONENTS_YDATALABELS
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Grid",                       ID_GRAPHCOMPONENTS_GRIDS
+            MENUITEM "S&ub Grid",                   ID_GRAPHCOMPONENTS_SUBGRIDS
+
+            MENUITEM "T&icks",                      ID_GRAPHCOMPONENTS_TICKS
+            MENUITEM "Su&b Ticks",                  ID_GRAPHCOMPONENTS_SUBTICKS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_DATA_PROPERTIES
+    END
+END
+
+IDR_DIALOGS_CONTEXT MENU 
+BEGIN
+    POPUP "Gradient"
+    BEGIN
+        MENUITEM "None",                        ID_GRADIENT_NONE
+        MENUITEM "Left to Right",               ID_GRADIENT_LEFTTORIGHT
+        MENUITEM "Right to Left",               ID_GRADIENT_RIGHTTOLEFT
+        MENUITEM "Top to Bottom",               ID_GRADIENT_TOPTOBOTTOM
+        MENUITEM "Bottom to Top",               ID_GRADIENT_BOTTOMTOTOP
+        MENUITEM "LT to RB",                    ID_GRADIENT_LEFTTOPTORIGHTBOTTOM
+
+        MENUITEM "LB to RT",                    ID_GRADIENT_LEFTBOTTOMTORIGHTTOP
+
+        MENUITEM "RB to LT",                    ID_GRADIENT_RIGHTBOTTOMTOLEFTTOP
+
+        MENUITEM "RT to LB",                    ID_GRADIENT_RIGHTTOPTOLEFTBOTTOM
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_GRAPHFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_GRAPH_PROPERTIES
+    SEPARATOR
+    BUTTON      ID_TOOLS_SELECTIONTOOL
+    SEPARATOR
+    BUTTON      ID_TOOLS_PANTOOL
+    BUTTON      ID_TOOLS_CROSSTOOL
+    SEPARATOR
+    BUTTON      ID_ZOOM_ZOOM
+    BUTTON      ID_ZOOM_UNZOOM
+    BUTTON      ID_ZOOM_ZOOM100
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_GRAPHFRAME          BITMAP                  ".\\res\\graph_toolbar.bmp"
+IDB_PAGE_LEFT           BITMAP                  ".\\res\\page_left.bmp"
+IDB_PAGE_RIGHT          BITMAP                  ".\\res\\page_right.bmp"
+IDB_PAGE_TOP            BITMAP                  ".\\res\\page_top.bmp"
+IDB_PAGE_BOTTOM         BITMAP                  ".\\res\\page_bottom.bmp"
+IDB_PAGE_NONE           BITMAP                  ".\\res\\page_none.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GRAPH_PROPERTIES_GENERAL DIALOGEX 0, 0, 217, 157
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Graph Properties"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "General",IDC_STATIC,7,6,203,80
+    CONTROL         "Title",IDC_SHOWTITLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,20,43,10
+    EDITTEXT        IDC_TITLE,59,17,93,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Font",IDC_TITLEFONT,160,17,42,14
+    CONTROL         "Sub Title",IDC_SHOWSUBTITLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,36,43,10
+    EDITTEXT        IDC_SUBTITLE,59,34,93,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Font",IDC_SUBTITLEFONT,160,33,42,14
+    CONTROL         "X Label",IDC_SHOWXLABEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,53,43,10
+    EDITTEXT        IDC_XLABEL,59,51,93,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Font",IDC_XLABELFONT,160,50,42,14
+    CONTROL         "Y Label",IDC_SHOWYLABEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,70,43,10
+    EDITTEXT        IDC_YLABEL,59,68,93,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Font",IDC_YLABELFONT,160,68,42,14
+    GROUPBOX        "Background",IDC_STATIC,7,88,203,62
+    CONTROL         "None",IDC_FILL_NONE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,13,98,33,10
+    CONTROL         "Solid",IDC_FILL_SOLID,"Button",BS_AUTORADIOBUTTON,13,
+                    115,31,10
+    CONTROL         "Gradient",IDC_FILL_GRADIENT,"Button",BS_AUTORADIOBUTTON,
+                    13,132,43,10
+    LTEXT           "Static",IDC_GRADIENT_TYPE,68,95,47,14,SS_CENTERIMAGE
+    PUSHBUTTON      "Select",IDC_GRTYPE_SELECT,160,94,42,14
+    LTEXT           "Color 1",IDC_COLOR1_STATIC,68,113,24,8
+    PUSHBUTTON      "",IDC_COLOR1,118,111,34,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_COLOR1_SELECT,160,112,42,14
+    LTEXT           "Color 2",IDC_COLOR2_STATIC,68,132,24,8
+    PUSHBUTTON      "",IDC_COLOR2,118,129,34,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_COLOR2_SELECT,160,130,42,14
+END
+
+IDD_LEGEND_PROPERTIES_GENERAL DIALOGEX 0, 0, 235, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Legend"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "General",IDC_STATIC,7,7,114,98
+    CONTROL         "Legend Visible",IDC_LEGEND_VISIBLE,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,14,17,58,10
+    LTEXT           "Border Width",IDC_STATIC,15,31,43,8
+    EDITTEXT        IDC_BORDER_WIDTH,64,28,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_BORDER_WIDTH_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,104,28,11,14,WS_EX_STATICEDGE
+    LTEXT           "Color",IDC_STATIC,15,48,18,8
+    PUSHBUTTON      "",IDC_BORDER_COLOR,35,46,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_BORDER_COLOR_SELECT,64,46,51,14
+    CONTROL         "Auto Position",IDC_LEGEND_AUTOPOS,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,14,64,58,10
+    LTEXT           "Font",IDC_STATIC,15,76,16,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,34,79,81,1
+    PUSHBUTTON      "Change Font...",IDC_FONT,50,85,65,14
+    GROUPBOX        "Background",IDC_STATIC,123,7,105,98
+    CONTROL         "None",IDC_FILL_NONE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,130,17,33,10
+    CONTROL         "Solid",IDC_FILL_SOLID,"Button",BS_AUTORADIOBUTTON,130,
+                    27,31,10
+    CONTROL         "Gradient",IDC_FILL_GRADIENT,"Button",BS_AUTORADIOBUTTON,
+                    130,37,43,10
+    PUSHBUTTON      "Select",IDC_GRTYPE_SELECT,182,49,40,14
+    PUSHBUTTON      "Select",IDC_COLOR1_SELECT,182,67,40,14
+    PUSHBUTTON      "Select",IDC_COLOR2_SELECT,182,85,40,14
+    LTEXT           "Color 1",IDC_COLOR1_STATIC,131,69,24,8
+    LTEXT           "Color 2",IDC_COLOR2_STATIC,131,87,24,8
+    LTEXT           "Static",IDC_GRADIENT_TYPE,131,49,47,14,SS_CENTERIMAGE
+    PUSHBUTTON      "",IDC_COLOR1,158,67,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_COLOR2,158,85,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+END
+
+IDD_DATA_PROPERTIES DIALOGEX 0, 0, 235, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Plot Data"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "General",IDC_STATIC,7,7,113,123
+    LTEXT           "Border Width",IDC_STATIC,15,17,43,8
+    EDITTEXT        IDC_BORDER_WIDTH,64,15,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_BORDER_WIDTH_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,104,15,11,14,WS_EX_STATICEDGE
+    LTEXT           "Color",IDC_STATIC,15,35,18,8
+    PUSHBUTTON      "",IDC_BORDER_COLOR,36,32,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_BORDER_COLOR_SELECT,64,32,50,14
+    LTEXT           "Point Size",IDC_STATIC,15,58,32,8
+    EDITTEXT        IDC_POINT_SIZE,64,56,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_POINT_SIZE_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,104,56,11,
+                    14,WS_EX_STATICEDGE
+    GROUPBOX        "Background",IDC_STATIC,123,7,105,123
+    CONTROL         "None",IDC_FILL_NONE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,130,17,33,10
+    CONTROL         "Solid",IDC_FILL_SOLID,"Button",BS_AUTORADIOBUTTON,130,
+                    27,31,10
+    CONTROL         "Gradient",IDC_FILL_GRADIENT,"Button",BS_AUTORADIOBUTTON,
+                    130,37,43,10
+    LTEXT           "Static",IDC_GRADIENT_TYPE,131,48,47,10,SS_CENTERIMAGE
+    PUSHBUTTON      "Select",IDC_GRTYPE_SELECT,182,46,40,14
+    LTEXT           "Color 1",IDC_COLOR1_STATIC,131,67,24,8
+    PUSHBUTTON      "",IDC_COLOR1,158,64,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_COLOR1_SELECT,182,64,40,14
+    LTEXT           "Color 2",IDC_COLOR2_STATIC,131,84,24,8
+    PUSHBUTTON      "",IDC_COLOR2,158,82,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_COLOR2_SELECT,182,82,40,14
+    CONTROL         "Lines",IDC_STYLE_LINES,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,25,88,32,10
+    CONTROL         "Scatter",IDC_STYLE_SCATTER,"Button",BS_AUTORADIOBUTTON,
+                    25,100,39,10
+    CONTROL         "Stem plot",IDC_STYLE_STEM,"Button",BS_AUTORADIOBUTTON,
+                    25,112,46,10
+    LTEXT           "Graph Style",IDC_STATIC,15,73,38,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,57,80,57,1
+    GROUPBOX        "Styles",IDC_STATIC,7,136,221,42
+    CONTROL         "Logarithmic scale (X)",IDC_CHECK_LOG_X,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,146,82,8
+    CONTROL         "Logarithmic scale (Y)",IDC_CHECK_LOG_Y,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,161,82,8
+    CONTROL         "Show wrong values as 0",IDC_CHECK_SHOW_LOG_ZERO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,123,146,99,8
+END
+
+IDD_SERIES_PROPERTIES DIALOGEX 0, 0, 239, 201
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Series"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Series",IDC_STATIC,7,7,20,8
+    CONTROL         "",IDC_SERIES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,17,86,177,WS_EX_TRANSPARENT
+    GROUPBOX        "Serie Properties",IDC_STATIC,98,7,134,187
+    CONTROL         "Visible",IDC_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,104,17,35,10
+    CONTROL         "Show in Legend",IDC_VISIBLE_LEGEND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,29,66,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,104,41,122,1
+    LTEXT           "Serie Name",IDC_STATIC,104,49,37,8
+    EDITTEXT        IDC_NAME,153,47,73,14,ES_AUTOHSCROLL
+    LTEXT           "Line Style",IDC_STATIC,104,66,32,8
+    COMBOBOX        IDC_LINE_STYLE,153,63,73,110,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Marker Style",IDC_STATIC,103,100,40,8
+    COMBOBOX        IDC_MARKER_STYLE,153,98,73,83,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Marker Size",IDC_STATIC,103,117,38,8
+    EDITTEXT        IDC_MARKER_SIZE,153,115,61,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_MARKER_SIZE_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,215,116,11,14,WS_EX_STATICEDGE
+    LTEXT           "% of Markers",IDC_STATIC,103,134,44,8
+    EDITTEXT        IDC_MARKERS_COUNT,153,132,61,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_MARKERS_COUNT_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,215,132,11,14,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,104,131,122,1
+    LTEXT           "Line Color",IDC_COLOR_STATIC,103,158,32,8
+    PUSHBUTTON      "",IDC_COLOR,153,155,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_COLOR_SELECT,179,155,46,14
+    LTEXT           "Marker Color",IDC_MARKER_COLOR_STATIC,103,176,42,8
+    PUSHBUTTON      "",IDC_MARKER_COLOR,153,173,20,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_MARKER_COLOR_SELECT,179,173,46,14
+    LTEXT           "Line Width",IDC_STATIC,103,83,34,8
+    EDITTEXT        IDC_LINE_WIDTH,153,79,61,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_LINE_WIDTH_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,215,79,11,
+                    14,WS_EX_STATICEDGE
+    PUSHBUTTON      "FFT",IDC_BUTTON_FFT,180,17,46,14
+END
+
+IDD_GRIDS_PROPERTIES DIALOGEX 0, 0, 235, 164
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Grids"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Grid",IDC_GRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    9,29,10
+    COMBOBOX        IDC_GRID_LINE,56,7,70,108,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_GRID_COLOR,134,7,42,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_GRID_COLOR_SELECT,185,7,43,14
+    CONTROL         "Sub Grid",IDC_SUBGRID,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,26,41,10
+    COMBOBOX        IDC_SUBGRID_LINE,56,24,70,92,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_SUBGRID_COLOR,134,24,42,14,BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Select",IDC_SUBGRID_COLOR_SELECT,185,24,43,14
+    CONTROL         "Ticks",IDC_TICKS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    7,42,31,10
+    CONTROL         "Sub Ticks",IDC_SUBTICKS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,56,42,45,10
+    CONTROL         "Intelligent Axis Scale",IDC_INTELLIGENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,57,82,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,89,61,139,1
+    CONTROL         "Symmetric Grids",IDC_SYMMETRIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,40,71,67,10
+    CTEXT           "X Axis",IDC_STATIC,133,69,31,8
+    CTEXT           "Y Axis",IDC_STATIC,185,69,30,8
+    LTEXT           "Default Grid Size (in pixels)",IDC_STATIC,40,85,86,8
+    EDITTEXT        IDC_XGRID_SIZE,134,81,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XGRID_SIZE_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,165,81,11,
+                    14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YGRID_SIZE,185,81,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YGRID_SIZE_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,216,81,11,
+                    14,WS_EX_STATICEDGE
+    LTEXT           "Number of Sub Grids",IDC_STATIC,40,101,66,8
+    EDITTEXT        IDC_XSUBGRIDS,134,98,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSUBGRIDS_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,165,98,11,
+                    14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YSUBGRIDS,185,98,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSUBGRIDS_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,216,98,11,
+                    14,WS_EX_STATICEDGE
+    LTEXT           "Additional grid cells",IDC_STATIC,40,115,62,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,107,119,121,1
+    LTEXT           "Min Limit",IDC_STATIC,40,131,28,8
+    LTEXT           "Max Limit",IDC_STATIC,40,147,30,8
+    EDITTEXT        IDC_MINX,134,127,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_MINX_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,165,127,11,
+                    14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MINY,185,127,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_MINY_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,216,127,11,
+                    14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MAXX,134,143,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_MAXX_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,165,143,11,
+                    14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MAXY,185,143,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_MAXY_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,216,143,11,
+                    14,WS_EX_STATICEDGE
+END
+
+IDD_MARGINS_PROPETIES DIALOGEX 0, 0, 217, 157
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Margins"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CTEXT           "Left",IDC_STATIC,16,46,42,8
+    EDITTEXT        IDC_LEFT,16,56,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_LEFT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,47,56,11,14,
+                    WS_EX_STATICEDGE
+    CTEXT           "Top",IDC_STATIC,88,7,39,8
+    EDITTEXT        IDC_TOP,88,17,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TOP_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,119,17,11,
+                    14,WS_EX_STATICEDGE
+    CTEXT           "Right",IDC_STATIC,159,46,41,8
+    EDITTEXT        IDC_RIGHT,159,56,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_RIGHT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,189,56,11,
+                    14,WS_EX_STATICEDGE
+    CTEXT           "Bottom",IDC_STATIC,88,102,40,8
+    EDITTEXT        IDC_BOTTOM,88,112,30,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_BOTTOM_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,118,112,11,
+                    14,WS_EX_STATICEDGE
+    CONTROL         588,IDC_PAGE,"Static",SS_BITMAP,66,37,87,59,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_LABELS_PROPERTIES DIALOGEX 0, 0, 235, 119
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Data Labels"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "X Labels",IDC_XLABELS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,8,42,10
+    PUSHBUTTON      "Font...",IDC_XFONT,55,7,41,14
+    LTEXT           "Angle",IDC_STATIC,7,29,19,8
+    EDITTEXT        IDC_XLABEL_ANGLE,39,25,46,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XLABEL_ANGLE_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,85,25,11,14,WS_EX_STATICEDGE
+    LTEXT           "Format",IDC_STATIC,7,44,24,8
+    COMBOBOX        IDC_XLABEL_FORMAT,39,42,57,73,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Precision",IDC_STATIC,7,60,29,8
+    EDITTEXT        IDC_XLABEL_PRECISION,39,57,46,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_XLABEL_PRECISION_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,85,57,11,14,WS_EX_STATICEDGE
+    CONTROL         "Y Labels",IDC_YLABELS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,138,9,42,10
+    PUSHBUTTON      "Font...",IDC_YFONT,186,7,41,14
+    LTEXT           "Angle",IDC_STATIC,138,29,19,8
+    EDITTEXT        IDC_YLABEL_ANGLE,171,26,46,14,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YLABEL_ANGLE_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,217,26,11,14,WS_EX_STATICEDGE
+    LTEXT           "Format",IDC_STATIC,138,44,24,8
+    COMBOBOX        IDC_YLABEL_FORMAT,171,42,56,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Precision",IDC_STATIC,138,60,29,8
+    EDITTEXT        IDC_YLABEL_PRECISION,170,57,46,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_YLABEL_PRECISION_SPIN,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,216,57,11,14,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GRAPH_PROPERTIES_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 13
+        VERTGUIDE, 56
+        VERTGUIDE, 59
+        VERTGUIDE, 68
+        VERTGUIDE, 152
+        VERTGUIDE, 160
+        VERTGUIDE, 202
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 150
+        HORZGUIDE, 17
+        HORZGUIDE, 34
+        HORZGUIDE, 51
+        HORZGUIDE, 68
+        HORZGUIDE, 144
+    END
+
+    IDD_LEGEND_PROPERTIES_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 14
+        VERTGUIDE, 64
+        VERTGUIDE, 115
+        VERTGUIDE, 130
+        VERTGUIDE, 141
+        VERTGUIDE, 158
+        VERTGUIDE, 178
+        VERTGUIDE, 182
+        VERTGUIDE, 209
+        VERTGUIDE, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+        HORZGUIDE, 17
+        HORZGUIDE, 49
+        HORZGUIDE, 56
+        HORZGUIDE, 63
+        HORZGUIDE, 67
+        HORZGUIDE, 81
+        HORZGUIDE, 85
+        HORZGUIDE, 99
+        HORZGUIDE, 105
+    END
+
+    IDD_DATA_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 15
+        VERTGUIDE, 25
+        VERTGUIDE, 56
+        VERTGUIDE, 64
+        VERTGUIDE, 114
+        VERTGUIDE, 123
+        VERTGUIDE, 181
+        VERTGUIDE, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+        HORZGUIDE, 15
+        HORZGUIDE, 70
+        HORZGUIDE, 81
+        HORZGUIDE, 130
+        HORZGUIDE, 136
+        HORZGUIDE, 146
+    END
+
+    IDD_SERIES_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        VERTGUIDE, 93
+        VERTGUIDE, 98
+        VERTGUIDE, 104
+        VERTGUIDE, 153
+        VERTGUIDE, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+        HORZGUIDE, 17
+    END
+
+    IDD_GRIDS_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 40
+        VERTGUIDE, 126
+        VERTGUIDE, 134
+        VERTGUIDE, 176
+        VERTGUIDE, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_MARGINS_PROPETIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+        HORZGUIDE, 17
+        HORZGUIDE, 31
+        HORZGUIDE, 37
+        HORZGUIDE, 46
+        HORZGUIDE, 63
+        HORZGUIDE, 96
+        HORZGUIDE, 102
+    END
+
+    IDD_LABELS_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 39
+        VERTGUIDE, 96
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_GRAPH_ZOOM          CURSOR                  ".\\res\\zoom.cur"
+IDC_GRAPH_UNZOOM        CURSOR                  ".\\res\\unzoom.cur"
+IDC_GRAPH_HAND          CURSOR                  ".\\res\\hand.cur"
+IDC_GRAPH_CROSS         CURSOR                  ".\\res\\cross.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_GRAPHFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EXPORT_TOCLIPBOARD,  VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_GRAPHFRAME          "Graph"
+    ID_GRAPH_PROPERTIES     "Shows graph options\nProperties"
+    ID_GRAPH_EXIT           "Closes the graph window"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SAVE_GRAPH           "Saves graph data and preset to file"
+    ID_OPEN_DATA            "Opens graph data from file"
+    ID_OPEN_PRESET          "Opens preset from file"
+    ID_OPEN_GRAPH           "Opens graphs data and preset from one file"
+    ID_ZOOM_ZOOM            "Zoom selected region\nZoom"
+    ID_ZOOM_UNZOOM          "Unzoom selected region\nUnzoom"
+    ID_ZOOM_ZOOM100         "Shows graph in actual size\nZoom 100%"
+    ID_TOOLS_SELECTIONTOOL  "Standard selection mode\nSelect"
+    ID_TOOLS_CROSSTOOL      "Helps to investigate the graph\nCross"
+    ID_TOOLS_PANTOOL        "Pans the graph\nPan"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GRAPHCOMPONENTS_SUBGRIDS "Shows or hides graph sub grids"
+    ID_GRAPHCOMPONENTS_TICKS "Shows or hides graph axis dada ticks"
+    ID_GRAPHCOMPONENTS_SUBTICKS "Shows or hides graph axis dada sub ticks"
+    ID_DATA_100             "Shows selected graph in actual size immediately\nZoom 100%"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EXPORT_TOFILE        "Exports graph to graphic file"
+    ID_EXPORT_TOCLIPBOARD   "Copies graph to clipboard"
+    ID_SAVE_DATA            "Saves graph data into file"
+    ID_SAVE_PRESET          "Saves graph preset to file"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_POSITION   "Cursor position                              "
+    ID_INDICATOR_SELECTIONTOOL "Selection"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GRAPH_PRINTPREVIEW   "Show printing preview\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GRAPH_PRINT          "Print graph to printer\nPrint"
+    ID_GRAPH_PAGESETUP      "Show page properties\nPage Setup"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_LEGEND_PROPERTIES    "Shows legend options\nProperties"
+    ID_LEGEND_MOVESIZE      "Moves legend in the graph\nMove & Size"
+    ID_LEGEND_HIDE          "Hides legend\nHide Legend"
+    ID_GRAPHCOMPONENTS_TITLE "Shows or hides graph title"
+    ID_GRAPHCOMPONENTS_SUBTITLE "Shows or hides graph sub title"
+    ID_GRAPHCOMPONENTS_LEGEND "Shows or hides graph legend"
+    ID_GRAPHCOMPONENTS_XLABEL "Shows or hides graph x axis label"
+    ID_GRAPHCOMPONENTS_YLABEL "Shows or hides graph y axis label"
+    ID_GRAPHCOMPONENTS_XDATALABELS "Shows or hides graph x axis dada labels"
+    ID_GRAPHCOMPONENTS_YDATALABELS "Shows or hides graph y axis dada labels"
+    ID_GRAPHCOMPONENTS_GRIDS "Shows or hides graph grids"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

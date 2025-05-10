@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{76a65af8-3fcd-480a-930b-a8570b3f123e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c3243894-afb9-4f6f-ab5a-81892cf5d932}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitmaps\CSimpleDib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitmaps\DDB.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gl\cgl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BGScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataProperties.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataPropertiesGeneral.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataPropertiesGrids.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataPropertiesSeries.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Graph.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphCtrl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphProperties.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphPropertiesGeneral.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphPropertiesMargins.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LegendProperties.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LegendPropertiesGeneral.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LegendScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LineScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MarkerScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ClaMyTestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\bitmaps\CSimpleDib.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\bitmaps\DDB.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\gl\cgl.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\gl\cgl-help.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\gl\cgl-pal.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\BGScene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DataProperties.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DataPropertiesGeneral.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DataPropertiesGrids.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DataPropertiesLabels.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DataPropertiesSeries.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Graph.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GraphCtrl.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GraphProperties.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GraphPropertiesGeneral.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GraphPropertiesMargins.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GraphScene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GraphView.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\LegendProperties.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\LegendPropertiesGeneral.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\LegendScene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\LineScene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\MarkerScene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\PathString.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\tools.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ViewPrintPreview.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="ClaMyTestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyGraph.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MyGraph.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\graph_frame.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\page_top.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\page_right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\page_none.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\page_left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\page_bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MyGraph.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\res\cross.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\res\hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\res\unzoom.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\res\zoom.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\zoom.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\unzoom.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cross.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

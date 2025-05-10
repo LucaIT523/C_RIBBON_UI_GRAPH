@@ -1,0 +1,93 @@
+﻿  fax3sm_winnt.c
+  tif_aux.c
+  tif_close.c
+  tif_codec.c
+  tif_compress.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_compress.c(200,70): warning C4267: 'function': conversion from 'size_t' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_compress.c(206,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tif_dir.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_dir.c(103,13): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  tif_dirinfo.c
+  tif_dirread.c
+  tif_dirwrite.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_dirwrite.c(872,58): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_dirwrite.c(973,9): warning C4311: 'type cast': pointer truncation from 'uint32 *' to 'toff_t'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_dirwrite.c(1064,10): warning C4311: 'type cast': pointer truncation from 'uint32 *' to 'toff_t'
+  tif_dumpmode.c
+  tif_error.c
+  tif_fax3.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(250,3): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(253,2): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(304,3): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(307,2): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(386,21): warning C4311: 'type cast': pointer truncation from 'u_char *' to 'u_long'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(421,21): warning C4311: 'type cast': pointer truncation from 'u_char *' to 'u_long'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(797,11): warning C4311: 'type cast': pointer truncation from 'u_char *' to 'u_long'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(856,11): warning C4311: 'type cast': pointer truncation from 'u_char *' to 'u_long'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(931,8): warning C4311: 'type cast': pointer truncation from 'tidata_t' to 'u_long'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(1390,3): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(1393,2): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(1490,27): warning C4311: 'type cast': pointer truncation from 'u_char *' to 'u_long'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(1500,3): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_fax3.c(1503,2): warning C4244: '-=': conversion from '__int64' to 'tsize_t', possible loss of data
+  tif_flush.c
+  tif_getimage.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(66,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(80,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(91,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(107,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(114,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(122,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(127,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(135,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(143,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(148,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(154,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(217,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(247,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(279,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(290,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(312,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(321,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(326,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(334,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(344,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(349,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_getimage.c(358,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tif_jpeg.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_jpeg.c(415,35): warning C4267: '-=': conversion from 'size_t' to 'uint32', possible loss of data
+  tif_luv.c
+  tif_lzw.c
+  tif_next.c
+  tif_ojpeg.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_ojpeg.c(1338,72): warning C4244: '=': conversion from '__int64' to 'uint32', possible loss of data
+  tif_open.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_open.c(145,57): warning C4267: 'function': conversion from 'size_t' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_open.c(152,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  tif_packbits.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(45,50): warning C4312: 'type cast': conversion from 'tsize_t' to 'tidata_t' of greater size
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(47,51): warning C4312: 'type cast': conversion from 'tsize_t' to 'tidata_t' of greater size
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(91,15): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(92,35): warning C4244: '+=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(100,26): warning C4244: '+=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(176,23): warning C4244: '+=': conversion from '__int64' to 'tsize_t', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(191,46): warning C4311: 'type cast': pointer truncation from 'tidata_t' to 'tsize_t'
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\tiff\tif_packbits.c(201,42): warning C4311: 'type cast': pointer truncation from 'tidata_t' to 'tsize_t'
+  tif_pixarlog.c
+  tif_predict.c
+  tif_print.c
+  tif_read.c
+  tif_strip.c
+  tif_swab.c
+  tif_thunder.c
+  tif_tile.c
+  tif_version.c
+  tif_warning.c
+  tif_write.c
+  tif_zip.c
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1573,5): warning MSB8012: TargetPath(D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\x64\Static Debug\Tiff.lib) does not match the Library's OutputFile property value (D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\output\tiff_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1575,5): warning MSB8012: TargetName(Tiff) does not match the Library's OutputFile property value (tiff_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  Tiff.vcxproj -> D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\x64\Static Debug\Tiff.lib

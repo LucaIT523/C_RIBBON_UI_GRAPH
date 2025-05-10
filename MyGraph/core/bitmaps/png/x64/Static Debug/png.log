@@ -1,0 +1,66 @@
+﻿  png.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\png.c(658,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngerror.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngerror.c(140,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngget.c
+  pngmem.c
+  pngpread.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngpread.c(520,31): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngpread.c(536,31): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngpread.c(700,29): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngpread.c(723,29): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngpread.c(1277,64): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngpread.c(1494,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngread.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngread.c(118,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngread.c(122,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngread.c(196,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngread.c(200,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngrio.c
+  pngrtran.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrtran.c(1182,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngrutil.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(210,59): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(234,69): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(297,65): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(281,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(284,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(287,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(320,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(1060,33): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(1153,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngrutil.c(2185,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngset.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(381,33): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(397,31): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(419,38): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(657,72): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(663,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(943,36): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(945,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(976,55): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(995,60): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngset.c(994,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngtrans.c
+  pngvcrd.c
+  pngwio.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwio.c(52,12): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngwrite.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwrite.c(415,11): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwrite.c(511,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwrite.c(515,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwrite.c(578,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwrite.c(582,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngwtran.c
+  pngwutil.c
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(172,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(180,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(1204,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(1312,85): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(1520,45): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(1573,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\core\bitmaps\png\pngwutil.c(1574,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1573,5): warning MSB8012: TargetPath(D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\x64\Static Debug\png.lib) does not match the Library's OutputFile property value (D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\output\png_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1575,5): warning MSB8012: TargetName(png) does not match the Library's OutputFile property value (png_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  png.vcxproj -> D:\work\Graph_C\GRAPH_V_unicode_SOURCE\GRAPH_V_unicode\dll\x64\Static Debug\png.lib
